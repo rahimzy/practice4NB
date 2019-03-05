@@ -18,27 +18,27 @@ public class Practice4 {
         // TODO code application logic here
                 int num = 10;
         System.out.println(num);
-//                A cc = new A();
-//        cc.setName("Fred");
-//        cc.setAge(12);
-//        System.out.println("cc name is: " + cc.getName()+ "\t"+"Age is:" + "\t"+ cc.getAge());
+                A cc = new A();
+        cc.setName("Fred");
+        cc.setAge(12);
+        System.out.println("cc name is: " + cc.getName()+ "\t"+"Age is:" + "\t"+ cc.getAge());
     }
     
 }
-//class A{
-//    private String name;
-//    private int age;
-//
-//public void setName(String givenName){
-//this.name = givenName;
-//}
-//public String getName(){
-//    return this.name;
-//}
-//public void setAge(int givenAge){
-//    this.age = givenAge;
-//}
-//public int getAge(){
-//    return this.age;
-//}
-//}
+class A{
+    private String name;
+    private int age;
+
+public void setName(String givenName){
+this.name = givenName;
+}
+public String getName(){
+    return this.name;
+}
+public void setAge(int givenAge){
+    this.age = givenAge;
+}
+public int getAge(){
+    return this.age;
+}
+}
